@@ -48,7 +48,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //LatLng sydney = new LatLng(-34, 151);
         LatLng rtvLiberia = new LatLng(37.4029933,-122.1815252);
         mMap.addMarker(new MarkerOptions().position(rtvLiberia).title("RTV Liberia"))
-                .setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
+                .setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(rtvLiberia));
 
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
